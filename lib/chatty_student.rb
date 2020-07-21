@@ -1,3 +1,5 @@
+# require ./lib/student.rb
+
 class ChattyStudent
   def hello
     super
@@ -5,6 +7,6 @@ class ChattyStudent
   end
 
   def raise_hand
-    super * 10    
+    super * 10
   end
 end
